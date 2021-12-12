@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "title": "Wild Africa",
+        "location": "South Africa",
+        "img": "https://i.ibb.co/ydXdksX/africa.jpg",
+        "description": "Africa abounds with incredible sights, from soaring sand dunes to savannas teeming with wildlife. Experience the continent's many wonders with our experts on trips to Tanzania, South Africa, Botswana, Rwanda, Morocco, and more. Witness the annual wildebeest migration on safari in the Serengeti, or explore the sun-washed cities of Morocco through your camera lens. In South Africa, spot lions, elephants, giraffes, and more on a thrilling family safari. On many of our Africa expeditions, we arrange visits to National Geographic–sponsored research sites and talks with scientists in the field.",
+        "cost": 71,
+        "duration": 12
+    },
+    {
+        "id": 1,
+        "title": "Egypt Expedition",
+        "location": "Egypt",
+        "img": "https://i.ibb.co/94KM388/egypt.jpg",
+        "description": "Venture to the land of the pharaohs and discover some of the greatest treasures of the ancient world with a private guide, from the Pyramids at Giza to King Tutankhamun's legendary tomb. Trace the dramatic feats of Egyptian rulers—and the powerful deities they worshipped—as you wander the soaring temple of Karnak, or gaze upon the colossal statues of Ramses II at Abu Simbel. Couple your archaeological odyssey with a cruise down the Nile, the age-old lifeline of this fabled desert realm.",
+        "cost": 14,
+        "duration": 5
+    },
+    {
+        "id": 2,
+        "title": "Madagascar by Sea",
+        "location": "South Africa",
+        "img": "https://i.ibb.co/d6Nngct/madagaskar.jpg",
+        "description": "Experience an extraordinary range of habitats and cultures on a voyage to three countries from Cape Town to the Tanzanian city of Dar es Salaam. Delve into the rare botany of South Africa's Western Cape and explore the cliffs and caves along the stunning Garden Route. Spend a day exploring the diverse ecosystems of iSimangaliso Wetland Park, and then venture inland for a day - spotting lions, leopards, elephants, and more on safari. Observe playful lemurs and colorful reptiles amid the landscapes of Madagascar, and the unforgettable sight of its iconic baobab trees. Along the way, explore the captivating cities of Cape Town, Durban, and historic Stone Town.",
+        "cost": 120,
+        "duration": 7
+    },
+    {
+        "id": 3,
+        "title": "Diverse India",
+        "location": "India",
+        "img": "https://i.ibb.co/1qdd7cC/taj.jpg",
+        "description": "One of the oldest civilisations in the world, India is a mosaic of multicultural experiences. With a rich heritage and myriad attractions, the country is among the most popular tourist destinations in the world. It covers an area of 32, 87,263 sq. km, extending from the snow-covered Himalayan heights to the tropical rain forests of the south. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity.",
+        "cost": 50,
+        "duration": 8
+    },
+    {
+        "id": 4,
+        "title": "Explore Europe",
+        "location": "Europe",
+        "img": "https://i.ibb.co/JR0HncZ/europe.jpg",
+        "description": "Delve into the cultural wonders of Central Europe on a survey of its most celebrated landmarks, from Germany's iconic Brandenburg Gate to Czechia's centuries-old Charles Bridge. Step into the past in Berlin, Vienna, Prague, Budapest, and the Bohemian countryside, exploring ancient castles and historic districts alongside local historians. Taste culinary specialties, discover contemporary art, and experience the ever-evolving vibrancy of these storied places.",
+        "cost": 20,
+        "duration": 5
+    },
+    {
+        "id": 5,
+        "title": "Ancient China",
+        "location": "China",
+        "img": "https://i.ibb.co/5KKn7Pg/china.jpg",
+        "description": "Beneath the glittering skyscrapers and expanding skylines, the ancient heart of China endures, a living testament to a long and colorful history. Exploring alongside private guides, uncover the legacy of imperial China at palaces and tombs, fortified cities and revered temples. Wander through gardens and local markets, spend time with artisans and chefs, and get an intimate look at the vibrant culture of China, past and present.",
+        "cost": 30,
+        "duration": 8
+    },
+    {
+        "id": 6,
+        "title": "Alaska's Inside Passage",
+        "location": "United State of America",
+        "img": "https://www.nationalgeographic.com/content/dam/expeditions/destinations/north-america/ocean/Alaskas-Inside-Passage/hero-inside-passage-new-edited.adapt.1900.1.jpg",
+        "description": "Experience the remarkable beauty of southeast Alaska on a voyage aboard the National Geographic Quest or National Geographic Venture. Discover a rugged landscape of mist-shrouded fjords, tidewater glaciers, and islands teeming with wildlife—from bald eagles and brown bears to orcas and humpback whales. Kayak into secluded inlets and around dramatic icebergs, spend a full day in spectacular Glacier Bay National Park, and learn firsthand about Alaska's rich Native American heritage.",
+        "cost": 15,
+        "duration": 5
+    },
+    {
+        "id": 7,
+        "title": "Sailing The Low Country",
+        "location": "Cumberland Island",
+        "img": "https://www.nationalgeographic.com/content/dam/expeditions/destinations/north-america/ocean/sailing-the-low-country/sailing-the-low-country-hero-cropped.adapt.1900.1.jpg",
+        "description": "The seaboard of Georgia and South Carolina harbors a wealth of wildlife habitats and a fascinating cultural heritage. Here, the Sea Islands hug the mainland, offering undulating dunes, meadows, marshes, and forests that teem with birdlife and other creatures, as well as an intricate web of waterways that beg to be explored. Discover these stunning wilderness areas with our naturalists, and delve into the complex history of the South in charming coastal cities and on barrier islands where the West African-influenced culture of the Gullah-Geechee people continues today.",
+        "cost": 24,
+        "duration": 4
+    }
+]
