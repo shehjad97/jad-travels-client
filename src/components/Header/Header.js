@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import useAuth from "../../hooks/useAuth";
+import useAuth from "../../auth/useAuth";
 import logo from "../../logo.svg";
 
 const Header = () => {
-  const { user, logOut } = useAuth();
+  const { user, logout } = useAuth();
 
   return (
     <div>
@@ -74,7 +74,7 @@ const Header = () => {
                 </span>
               </li>
               {user?.email ? (
-                <li className="nav-item my-auto" onClick={logOut}>
+                <li className="nav-item my-auto" onClick={logout}>
                   <Link className="nav-link" to="/home">
                     <span className="btn btn-outline-danger">
                       Logout <i className="fas fa-sign-out-alt"></i>

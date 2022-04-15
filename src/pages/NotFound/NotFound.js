@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import error from "../../images/NotFound.jpg";
+import error from "../../assets/NotFound.jpg";
+import Footer from "../../components/Footer/Footer";
+import Header from './../../components/Header/Header';
 
 const NotFound = () => {
   return (
     <div>
+      <Header></Header>
       <div className="container">
         <div className="row">
           <div className="col-md-6 my-5">
@@ -23,6 +26,7 @@ const NotFound = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

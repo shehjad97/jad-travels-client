@@ -1,8 +1,10 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../auth/useAuth';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 import Loading from '../../components/Loading/Loading';
-import useAuth from '../../hooks/useAuth';
 
 const MyCart = () => {
     const { user } = useAuth();
@@ -39,6 +41,7 @@ const MyCart = () => {
 
     return (
         <div>
+            <Header></Header>
             <section className="container mt-2 mb-5 text-center">
                 <h1 className='text-center text-danger mt-5 mb-3'>My Bookings</h1>
                 <div className="row g-4">
@@ -81,6 +84,7 @@ const MyCart = () => {
                     }
                 </div>
             </section>
+            <Footer></Footer>
         </div>
     );
 };

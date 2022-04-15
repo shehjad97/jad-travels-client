@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useRef, useState } from 'react';
-import { useHistory, useParams } from 'react-router';
-import useAuth from '../../hooks/useAuth';
+import { useNavigate, useParams } from 'react-router';
+import useAuth from './../../auth/useAuth';
 
 const TourDetails = () => {
     const { user } = useAuth();
@@ -20,7 +20,7 @@ const TourDetails = () => {
     const refPhone = useRef();
     const refAdd = useRef();
     const refDate = useRef();
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleBooking = (e) => {
         const name = user.displayName;
@@ -35,7 +35,7 @@ const TourDetails = () => {
             .then(res => {
                 if (res.data.insertedId) {
                     alert("Tour Booked Suceessfully!!");
-                    history.push("/mycart");
+                    navigate("/mycart");
                 }
             })
         e.preventDefault();
